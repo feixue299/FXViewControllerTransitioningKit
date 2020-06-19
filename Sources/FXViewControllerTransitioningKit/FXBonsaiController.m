@@ -78,6 +78,7 @@
     self.springWithDamping = 0.8;
     self.isDisabledDismissAnimation = NO;
     self.isDisabledTapOutside = NO;
+
 }
 
 - (void)dismiss {
