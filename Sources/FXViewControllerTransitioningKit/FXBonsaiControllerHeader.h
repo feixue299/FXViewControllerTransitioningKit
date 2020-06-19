@@ -10,6 +10,7 @@
 #define FXBonsaiControllerHeader_h
 
 #import <CoreGraphics/CoreGraphics.h>
+#import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, FXBonsaiControllerDirection) {
     FXBonsaiControllerDirectionLeft,
