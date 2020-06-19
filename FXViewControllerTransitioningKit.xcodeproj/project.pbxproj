@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C3050893249C8F500007419B /* FXViewControllerTransitioningKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C3050891249C8F500007419B /* FXViewControllerTransitioningKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C305089D249C92270007419B /* FXBonsaiController.h in Headers */ = {isa = PBXBuildFile; fileRef = C305089B249C92270007419B /* FXBonsaiController.h */; };
+		C305089E249C92270007419B /* FXBonsaiController.m in Sources */ = {isa = PBXBuildFile; fileRef = C305089C249C92270007419B /* FXBonsaiController.m */; };
+		C30508A1249CA5360007419B /* FXBubbleTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C305089F249CA5360007419B /* FXBubbleTransition.h */; };
+		C30508A2249CA5360007419B /* FXBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C30508A0249CA5360007419B /* FXBubbleTransition.m */; };
+		C30508A7249CAC3A0007419B /* FXSlideInTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C30508A5249CAC3A0007419B /* FXSlideInTransition.h */; };
+		C30508A8249CAC3A0007419B /* FXSlideInTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C30508A6249CAC3A0007419B /* FXSlideInTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C305088E249C8F500007419B /* FXViewControllerTransitioningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FXViewControllerTransitioningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3050891249C8F500007419B /* FXViewControllerTransitioningKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXViewControllerTransitioningKit.h; sourceTree = "<group>"; };
 		C3050892249C8F500007419B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C305089B249C92270007419B /* FXBonsaiController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXBonsaiController.h; sourceTree = "<group>"; };
+		C305089C249C92270007419B /* FXBonsaiController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXBonsaiController.m; sourceTree = "<group>"; };
+		C305089F249CA5360007419B /* FXBubbleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXBubbleTransition.h; sourceTree = "<group>"; };
+		C30508A0249CA5360007419B /* FXBubbleTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXBubbleTransition.m; sourceTree = "<group>"; };
+		C30508A4249CA5730007419B /* FXBonsaiControllerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXBonsaiControllerHeader.h; sourceTree = "<group>"; };
+		C30508A5249CAC3A0007419B /* FXSlideInTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FXSlideInTransition.h; sourceTree = "<group>"; };
+		C30508A6249CAC3A0007419B /* FXSlideInTransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXSlideInTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +59,31 @@
 		C3050890249C8F500007419B /* FXViewControllerTransitioningKit */ = {
 			isa = PBXGroup;
 			children = (
+				C3050899249C8FEA0007419B /* Sources */,
 				C3050891249C8F500007419B /* FXViewControllerTransitioningKit.h */,
 				C3050892249C8F500007419B /* Info.plist */,
+			);
+			path = FXViewControllerTransitioningKit;
+			sourceTree = "<group>";
+		};
+		C3050899249C8FEA0007419B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C305089A249C8FEA0007419B /* FXViewControllerTransitioningKit */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		C305089A249C8FEA0007419B /* FXViewControllerTransitioningKit */ = {
+			isa = PBXGroup;
+			children = (
+				C30508A4249CA5730007419B /* FXBonsaiControllerHeader.h */,
+				C305089B249C92270007419B /* FXBonsaiController.h */,
+				C305089C249C92270007419B /* FXBonsaiController.m */,
+				C305089F249CA5360007419B /* FXBubbleTransition.h */,
+				C30508A0249CA5360007419B /* FXBubbleTransition.m */,
+				C30508A5249CAC3A0007419B /* FXSlideInTransition.h */,
+				C30508A6249CAC3A0007419B /* FXSlideInTransition.m */,
 			);
 			path = FXViewControllerTransitioningKit;
 			sourceTree = "<group>";
@@ -59,6 +95,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30508A7249CAC3A0007419B /* FXSlideInTransition.h in Headers */,
+				C305089D249C92270007419B /* FXBonsaiController.h in Headers */,
+				C30508A1249CA5360007419B /* FXBubbleTransition.h in Headers */,
 				C3050893249C8F500007419B /* FXViewControllerTransitioningKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30508A2249CA5360007419B /* FXBubbleTransition.m in Sources */,
+				C30508A8249CAC3A0007419B /* FXSlideInTransition.m in Sources */,
+				C305089E249C92270007419B /* FXBonsaiController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
