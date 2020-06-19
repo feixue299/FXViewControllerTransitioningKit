@@ -12,7 +12,7 @@ Create a `Package.swift` file.
 ```swift
 let package = Package(
     dependencies: [
-    .package(url: "https://github.com/feixue299/FXViewControllerTransitioningKit.git", from: "0.1.0")
+    .package(url: "https://github.com/feixue299/FXViewControllerTransitioningKit.git", from: "0.1.2")
     ],
     // ...
 )
