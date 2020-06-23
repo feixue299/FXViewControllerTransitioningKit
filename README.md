@@ -5,6 +5,16 @@
 
 ## Installation
 
+### CocoaPods
+
+For FXImageTextView, use the following entry in your Podfile:
+
+```rb
+pod 'FXViewControllerTransitioningKit', '~> 0.1.3'
+```
+
+Then run `pod install`.
+
 ### Carthage
 
 Make the following entry in your Cartfile:
